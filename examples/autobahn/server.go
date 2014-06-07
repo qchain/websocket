@@ -8,7 +8,7 @@ package main
 import (
 	"errors"
 	"flag"
-	"github.com/gorilla/websocket"
+	"github.com/conformal/websocket"
 	"io"
 	"log"
 	"net/http"
