@@ -14,7 +14,7 @@ import (
 	"text/template"
 	"time"
 
-	"github.com/conformal/websocket"
+	"github.com/btcsuite/websocket"
 )
 
 const (

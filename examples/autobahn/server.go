@@ -8,7 +8,7 @@ package main
 import (
 	"errors"
 	"flag"
-	"github.com/conformal/websocket"
+	"github.com/btcsuite/websocket"
 	"io"
 	"log"
 	"net/http"

@@ -5,7 +5,7 @@
 package main
 
 import (
-	"github.com/conformal/websocket"
+	"github.com/btcsuite/websocket"
 	"log"
 	"net/http"
 	"time"
