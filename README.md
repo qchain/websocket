@@ -35,7 +35,7 @@ subdirectory](https://github.com/btcsuite/websocket/tree/master/examples/autobah
 <tr>
 <th></th>
 <th><a href="http://godoc.org/github.com/btcsuite/websocket">gorilla</a></th>
-<th><a href="http://godoc.org/code.google.com/p/go.net/websocket">go.net</a></th>
+<th><a href="http://godoc.org/golang.org/x/net/websocket">golang.org/x/net</a></th>
 </tr>
 <tr>
 <tr><td colspan="3"><a href="http://tools.ietf.org/html/rfc6455">RFC 6455</a> Features</td></tr>
@@ -54,10 +54,10 @@ Notes:
 
 1. Large messages are fragmented in [Chrome's new WebSocket implementation](http://www.ietf.org/mail-archive/web/hybi/current/msg10503.html).
 2. The application can get the type of a received data message by implementing
-   a [Codec marshal](http://godoc.org/code.google.com/p/go.net/websocket#Codec.Marshal)
+   a [Codec marshal](http://godoc.org/golang.org/x/net/websocket#Codec.Marshal)
    function.
 3. The go.net io.Reader and io.Writer operate across WebSocket frame boundaries.
   Read returns when the input buffer is full or a frame boundary is
-  encountered, Each call to Write sends a single frame message. The Gorilla
+  encountered. Each call to Write sends a single frame message. The Gorilla
   io.Reader and io.WriteCloser operate on a single WebSocket message.
 
