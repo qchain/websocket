@@ -5,7 +5,7 @@
 package main
 
 import (
-	"github.com/btcsuite/websocket"
+	"github.com/qchain/websocket"
 	"log"
 	"net/http"
 	"time"
